@@ -1,0 +1,22 @@
+.short_card{
+  background-image: attr(data-bg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 230px;
+}
+
+.btn {
+  transition: 0.2s;
+  border-radius: 6PX;
+}
+
+.btn > .arrow_right {
+  width: 0;
+  transition: .2s;
+  overflow-x: hidden;
+}
+
+.btn:hover .arrow_right {
+  width: 24px;
+}
