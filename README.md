@@ -11,7 +11,8 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+- Configure the top-level `parserOptions` property like this:![Screenshot (322)](https://github.com/user-attachments/assets/9cb980ac-57b3-4cfe-b8f8-78eea0ffee9b)
+
 
 ```js
 export default {
